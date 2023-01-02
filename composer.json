@@ -1,0 +1,22 @@
+{
+    "name": "wsqa/bigproject",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Abu Elula",
+            "email": "Muhammad.abu-elula@whitesourcesoftware.com"
+        }
+    ],
+    "require": {
+        "symfony/proxy-manager-bridge":"v2.7.0",
+        "symfony/dependency-injection":"v2.7.0",
+        "symfony/symfony":"v2.7.0",
+        "anchorcms/anchor-cms":"0.12.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
